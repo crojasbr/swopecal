@@ -94,7 +94,7 @@ def plot_and_fit(df_synthetic, df_observed, title, x_col, xerr_col,y_col, fit_co
             sigma_a, sigma_b = np.sqrt(np.diag(pcov))
             x_fit_obs = np.linspace(-1, 3, 400)
             fit_line = linear_model(x_fit_obs, *popt)
-            plt.plot(x_fit_obs, fit_line, 'g-', label=f'Fitted line: y = {a:.3f}x + {b:.3f}')
+            plt.plot(x_fit_obs, fit_line, 'g-', label=f'linear fit obs mags: y = {a:.3f}x + {b:.3f}')
 
             
 #             coefficients_obs = np.polyfit(clipped_x, clipped_y, 1)
