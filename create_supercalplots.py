@@ -122,7 +122,7 @@ df_synthetic['gPS1-iPS1'] = df_synthetic['PS1-g'] - df_synthetic['PS1-i']
 dfg = load_and_prepare_data('g_final.csv', 'g', 'dg','i','di','insmag_g', 'insmagerr_g','zpt', 'g','dg')
 dfi = load_and_prepare_data('i_final.csv', 'g', 'dg','i','di','insmag_i', 'insmagerr_i','zpt', 'i','di')
 dfr = load_and_prepare_data('r_final.csv', 'g', 'dg','i','di','insmag_r', 'insmagerr_r','zpt', 'r','dr')
-dfv = load_and_prepare_data('v_final.csv', 'g', 'dg','i','di','insmag_V', 'insmagerr_V','zpt', 'r','dr')
+dfv = load_and_prepare_data('V_final.csv', 'g', 'dg','i','di','insmag_V', 'insmagerr_V','zpt', 'r','dr')
 dfb = load_and_prepare_data('b_final.csv', 'g', 'dg','i','di','insmag_B', 'insmagerr_B','zpt', 'g','dg')
 
 combinations = {
